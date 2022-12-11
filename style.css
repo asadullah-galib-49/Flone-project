@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.search-button{
+    background: none;
+    border: none;
+}
+h1{
+    font-weight: 1000;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif2;
+}
+h2{
+    font-family:cursive;
+}
+h1>span{
+    color: rgb(241, 133, 151);
+}
+
+
+.footer-link a{
+text-decoration: none;
+
+}
+.main-section{
+    margin-bottom: 100px;
+}
+.main-img{
+    /* margin-bottom: 100px; */
+    background: url(./main.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.main-img>h5{
+    color: rgb(255, 255, 255);
+    padding: 30px 30px 20px 30px;
+    font-family:cursive;
+}
+.main-img>ul>li{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pera{
+    font-family:cursive;
+    font-weight: bold;
+    color: rgb(115, 89, 89);
+}
+.Services span{
+    color: rgb(241, 133, 151);
+}
+.nav-color{
+    background: linear-gradient(pink,rgb(241, 133, 151));
+}
+.slider-heading{
+    color: rgb(241, 133, 151);  
+}
+.slider-pera{
+    color: rgb(241, 133, 151);    
+}
+
+
+.view-btn{
+    padding: 10px 25px;
+    border: none;
+    font-family: sans-serif;
+}
+a>.view-btn:hover{
+    background-color: rgb(241, 133, 151);
+    color: white;
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+a .view-btn{
+    transition: all.4s;
+}
+h3>span{
+    color: rgb(241, 133, 151);
+}
+.services{
+    text-align: center;
+}
+.services p{
+    font-weight: bolder;
+    color: rgb(115, 89, 89);
+}
+.services span{
+    color: rgb(241, 133, 151);
+}
+.services-section img{
+    width: 40px;
+    height: 40px;
+    margin-left: 42%;
+}
+.services-section p{
+    color: rgb(115, 89, 89);
+}
+.img-fluid{
+    transition: all .2s;
+}
+.img-fluid:hover{
+    opacity: 50%;
+}
+.card-img-top{
+    height: 300px;
+}
+
+.second-heder{
+    background: linear-gradient(pink,rgb(241, 133, 151));
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #dd2a7b;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fa-whatsapp{
+    color: #25d366;
+}
+.footer-icon a i{
+    transition: all.4s;
+}
+.footer-icon a i:hover{
+    transform: scale(1.5);
+}
